@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(237, 237, 239);
     color: rgb(0, 0, 0);
     margin: 5px;
     padding: 2px;
@@ -17,18 +17,45 @@ footer {
 p{
     text-align:justify;
     text-indent: 8ch;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
 }
 h1
 {
     color:rgb(0, 0, 0);
-    text-decoration-line:underline;
-    font-size: 68px;
+    font-size: 80px;
 }
 h3 {
     color:rgb(0, 0, 2);
-    text-decoration-line:underline;
+    font-size: 60px;
 }
 h4 {
     color:rgb(0, 0, 0);
-    text-decoration-line:underline;
+    font-size: 30px;
 }
+.container{
+    position: relative;
+    text-align:left;
+    color:rgb(17, 16, 16)
+}
+.top-left{
+    position: absolute;
+    bottom:300px;
+    left:16px;
+    margin-right:left ;
+}
+.textcols {
+    white-space: nowrap;
+    font-size: 0;
+    }
+    .textcols-item {
+    white-space: normal;
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    margin-right: 5%;
+    font-size: 14px;
+    }
+    .textcols .textcols-item:last-child {
+    margin-right: 0 ;
+    }
